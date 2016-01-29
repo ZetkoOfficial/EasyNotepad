@@ -23,6 +23,7 @@
 
     Private Sub QuickDeleteToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles QuickDeleteToolStripMenuItem.Click
 
+        'Quick delete
         My.Settings.quickSaveLine = ""
 
     End Sub
@@ -30,4 +31,5 @@
     Private Sub CreditsToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CreditsToolStripMenuItem.Click
         MsgBox("Made by Zetko and Lovro")
     End Sub
+
 End Class

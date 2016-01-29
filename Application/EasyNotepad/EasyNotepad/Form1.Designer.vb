@@ -22,14 +22,14 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox
-        Me.Panel1 = New System.Windows.Forms.Panel
-        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip
-        Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.QuickSaveToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.QuickOpenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.QuickDeleteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
-        Me.CreditsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem
+        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.QuickSaveToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.QuickOpenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.QuickDeleteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CreditsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Panel1.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -46,8 +46,8 @@ Partial Class Form1
         'Panel1
         '
         Me.Panel1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel1.Controls.Add(Me.RichTextBox1)
         Me.Panel1.Location = New System.Drawing.Point(12, 31)
         Me.Panel1.Name = "Panel1"
@@ -73,19 +73,19 @@ Partial Class Form1
         'QuickSaveToolStripMenuItem
         '
         Me.QuickSaveToolStripMenuItem.Name = "QuickSaveToolStripMenuItem"
-        Me.QuickSaveToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.QuickSaveToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.QuickSaveToolStripMenuItem.Text = "Quick Save"
         '
         'QuickOpenToolStripMenuItem
         '
         Me.QuickOpenToolStripMenuItem.Name = "QuickOpenToolStripMenuItem"
-        Me.QuickOpenToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.QuickOpenToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.QuickOpenToolStripMenuItem.Text = "Quick Open"
         '
         'QuickDeleteToolStripMenuItem
         '
         Me.QuickDeleteToolStripMenuItem.Name = "QuickDeleteToolStripMenuItem"
-        Me.QuickDeleteToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.QuickDeleteToolStripMenuItem.Size = New System.Drawing.Size(141, 22)
         Me.QuickDeleteToolStripMenuItem.Text = "Quick Delete"
         '
         'CreditsToolStripMenuItem
